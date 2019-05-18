@@ -5,21 +5,21 @@ class Testimonials extends Component {
         return (
             <section id="testimonials">
 
-      <div class="text-container">
+      <div className="text-container">
 
-         <div class="row">
+         <div className="row">
 
-            <div class="two columns header-col">
+            <div className="two columns header-col">
 
                <h1><span>Client Testimonials</span></h1>
 
             </div>
 
-            <div class="ten columns flex-container">
+            <div className="ten columns flex-container">
 
-               <div class="flexslider">
+               <div className="flexslider">
 
-                  <ul class="slides">
+                  <ul className="slides">
 
                      <li>
                         <blockquote>
