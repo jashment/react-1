@@ -45,7 +45,7 @@ componentDidMount() {
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
-        <Portfolio />
+        <Portfolio data={this.state.resumeData.portfolio}/>
         <Testimonials />
         <Contact />
         <Footer />
